@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DEAB26177BD78D0019DD6A /* FacebookMessageWallResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DEAB25177BD78D0019DD6A /* FacebookMessageWallResponse.m */; };
+		22DEAB29177BDC690019DD6A /* FacebookMessageWallRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DEAB28177BDC690019DD6A /* FacebookMessageWallRequest.m */; };
+		22DEAB2D177C1ACC0019DD6A /* FacebookAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DEAB2C177C1ACB0019DD6A /* FacebookAccount.m */; };
+		22F9304F177A81C900F2672C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F9304E177A81C900F2672C /* UIKit.framework */; };
+		22F93051177A81C900F2672C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93050177A81C900F2672C /* Foundation.framework */; };
+		22F93053177A81C900F2672C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93052177A81C900F2672C /* CoreGraphics.framework */; };
+		22F93059177A81C900F2672C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F93057177A81C900F2672C /* InfoPlist.strings */; };
+		22F9305B177A81C900F2672C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9305A177A81C900F2672C /* main.m */; };
+		22F9305F177A81C900F2672C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9305E177A81C900F2672C /* AppDelegate.m */; };
+		22F93061177A81CA00F2672C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F93060177A81CA00F2672C /* Default.png */; };
+		22F93063177A81CA00F2672C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F93062177A81CA00F2672C /* Default@2x.png */; };
+		22F93065177A81CA00F2672C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F93064177A81CA00F2672C /* Default-568h@2x.png */; };
+		22F9306C177A848700F2672C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F9306B177A848700F2672C /* CFNetwork.framework */; };
+		22F9306E177A848E00F2672C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F9306D177A848E00F2672C /* CoreData.framework */; };
+		22F93070177A849800F2672C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F9306F177A849800F2672C /* MobileCoreServices.framework */; };
+		22F93072177A849E00F2672C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93071177A849E00F2672C /* Security.framework */; };
+		22F93074177A84A500F2672C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93073177A84A500F2672C /* SystemConfiguration.framework */; };
+		22F93076177A84AC00F2672C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93075177A84AC00F2672C /* QuartzCore.framework */; };
+		22F93078177A84B400F2672C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F93077177A84B400F2672C /* libxml2.dylib */; };
+		22F9307B177A855600F2672C /* RestKitFaceBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9307A177A855600F2672C /* RestKitFaceBook.m */; };
+		22F9307F177A913400F2672C /* FBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9307E177A913400F2672C /* FBLoginViewController.m */; };
+		22F9313B177ADE9900F2672C /* FacebookFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F9313A177ADE9800F2672C /* FacebookFriends.m */; };
+		55402E12613B4550B3480481 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F190D7EA9CE4648B1A3112C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F190D7EA9CE4648B1A3112C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEAB24177BD78D0019DD6A /* FacebookMessageWallResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookMessageWallResponse.h; path = ../FacebookMessageWallResponse.h; sourceTree = "<group>"; };
+		22DEAB25177BD78D0019DD6A /* FacebookMessageWallResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookMessageWallResponse.m; path = ../FacebookMessageWallResponse.m; sourceTree = "<group>"; };
+		22DEAB27177BDC690019DD6A /* FacebookMessageWallRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookMessageWallRequest.h; sourceTree = "<group>"; };
+		22DEAB28177BDC690019DD6A /* FacebookMessageWallRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookMessageWallRequest.m; sourceTree = "<group>"; };
+		22DEAB2B177C1ACB0019DD6A /* FacebookAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAccount.h; sourceTree = SOURCE_ROOT; };
+		22DEAB2C177C1ACB0019DD6A /* FacebookAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAccount.m; sourceTree = SOURCE_ROOT; };
+		22F9304B177A81C900F2672C /* RestKitFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F9304E177A81C900F2672C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22F93050177A81C900F2672C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22F93052177A81C900F2672C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22F93056177A81C900F2672C /* RestKitFacebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitFacebook-Info.plist"; sourceTree = "<group>"; };
+		22F93058177A81C900F2672C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22F9305A177A81C900F2672C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F9305C177A81C900F2672C /* RestKitFacebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestKitFacebook-Prefix.pch"; sourceTree = "<group>"; };
+		22F9305D177A81C900F2672C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22F9305E177A81C900F2672C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22F93060177A81CA00F2672C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22F93062177A81CA00F2672C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22F93064177A81CA00F2672C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22F9306B177A848700F2672C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		22F9306D177A848E00F2672C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22F9306F177A849800F2672C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		22F93071177A849E00F2672C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		22F93073177A84A500F2672C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		22F93075177A84AC00F2672C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22F93077177A84B400F2672C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		22F93079177A855600F2672C /* RestKitFaceBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestKitFaceBook.h; path = ../RestKitFaceBook.h; sourceTree = "<group>"; };
+		22F9307A177A855600F2672C /* RestKitFaceBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestKitFaceBook.m; path = ../RestKitFaceBook.m; sourceTree = "<group>"; };
+		22F9307D177A913400F2672C /* FBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginViewController.h; sourceTree = "<group>"; };
+		22F9307E177A913400F2672C /* FBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewController.m; sourceTree = "<group>"; };
+		22F93139177ADE9700F2672C /* FacebookFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookFriends.h; sourceTree = "<group>"; };
+		22F9313A177ADE9800F2672C /* FacebookFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookFriends.m; sourceTree = "<group>"; };
+		7179E52FAF424B0B94FE4411 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F93048177A81C900F2672C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F93078177A84B400F2672C /* libxml2.dylib in Frameworks */,
+				22F93076177A84AC00F2672C /* QuartzCore.framework in Frameworks */,
+				22F93074177A84A500F2672C /* SystemConfiguration.framework in Frameworks */,
+				22F93072177A849E00F2672C /* Security.framework in Frameworks */,
+				22F93070177A849800F2672C /* MobileCoreServices.framework in Frameworks */,
+				22F9306E177A848E00F2672C /* CoreData.framework in Frameworks */,
+				22F9306C177A848700F2672C /* CFNetwork.framework in Frameworks */,
+				22F9304F177A81C900F2672C /* UIKit.framework in Frameworks */,
+				22F93051177A81C900F2672C /* Foundation.framework in Frameworks */,
+				22F93053177A81C900F2672C /* CoreGraphics.framework in Frameworks */,
+				55402E12613B4550B3480481 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F93042177A81C900F2672C = {
+			isa = PBXGroup;
+			children = (
+				22F93054177A81C900F2672C /* RestKitFacebook */,
+				22F9304D177A81C900F2672C /* Frameworks */,
+				22F9304C177A81C900F2672C /* Products */,
+				7179E52FAF424B0B94FE4411 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		22F9304C177A81C900F2672C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F9304B177A81C900F2672C /* RestKitFacebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F9304D177A81C900F2672C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F93077177A84B400F2672C /* libxml2.dylib */,
+				22F93075177A84AC00F2672C /* QuartzCore.framework */,
+				22F93073177A84A500F2672C /* SystemConfiguration.framework */,
+				22F93071177A849E00F2672C /* Security.framework */,
+				22F9306F177A849800F2672C /* MobileCoreServices.framework */,
+				22F9306D177A848E00F2672C /* CoreData.framework */,
+				22F9306B177A848700F2672C /* CFNetwork.framework */,
+				22F9304E177A81C900F2672C /* UIKit.framework */,
+				22F93050177A81C900F2672C /* Foundation.framework */,
+				22F93052177A81C900F2672C /* CoreGraphics.framework */,
+				0F190D7EA9CE4648B1A3112C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22F93054177A81C900F2672C /* RestKitFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				22DEAB2B177C1ACB0019DD6A /* FacebookAccount.h */,
+				22DEAB2C177C1ACB0019DD6A /* FacebookAccount.m */,
+				22F93079177A855600F2672C /* RestKitFaceBook.h */,
+				22F9307A177A855600F2672C /* RestKitFaceBook.m */,
+				22DEAB27177BDC690019DD6A /* FacebookMessageWallRequest.h */,
+				22DEAB28177BDC690019DD6A /* FacebookMessageWallRequest.m */,
+				22DEAB24177BD78D0019DD6A /* FacebookMessageWallResponse.h */,
+				22DEAB25177BD78D0019DD6A /* FacebookMessageWallResponse.m */,
+				22F93139177ADE9700F2672C /* FacebookFriends.h */,
+				22F9313A177ADE9800F2672C /* FacebookFriends.m */,
+				22F9307D177A913400F2672C /* FBLoginViewController.h */,
+				22F9307E177A913400F2672C /* FBLoginViewController.m */,
+				22F9305D177A81C900F2672C /* AppDelegate.h */,
+				22F9305E177A81C900F2672C /* AppDelegate.m */,
+				22F93055177A81C900F2672C /* Supporting Files */,
+			);
+			path = RestKitFacebook;
+			sourceTree = "<group>";
+		};
+		22F93055177A81C900F2672C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F93056177A81C900F2672C /* RestKitFacebook-Info.plist */,
+				22F93057177A81C900F2672C /* InfoPlist.strings */,
+				22F9305A177A81C900F2672C /* main.m */,
+				22F9305C177A81C900F2672C /* RestKitFacebook-Prefix.pch */,
+				22F93060177A81CA00F2672C /* Default.png */,
+				22F93062177A81CA00F2672C /* Default@2x.png */,
+				22F93064177A81CA00F2672C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F9304A177A81C900F2672C /* RestKitFacebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F93068177A81CA00F2672C /* Build configuration list for PBXNativeTarget "RestKitFacebook" */;
+			buildPhases = (
+				DFD2A60396E14BFBB9B6ABDE /* Check Pods Manifest.lock */,
+				22F93047177A81C900F2672C /* Sources */,
+				22F93048177A81C900F2672C /* Frameworks */,
+				22F93049177A81C900F2672C /* Resources */,
+				D28B963BB53949E7861502C5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestKitFacebook;
+			productName = RestKitFacebook;
+			productReference = 22F9304B177A81C900F2672C /* RestKitFacebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F93043177A81C900F2672C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = howard;
+			};
+			buildConfigurationList = 22F93046177A81C900F2672C /* Build configuration list for PBXProject "RestKitFacebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22F93042177A81C900F2672C;
+			productRefGroup = 22F9304C177A81C900F2672C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F9304A177A81C900F2672C /* RestKitFacebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F93049177A81C900F2672C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F93059177A81C900F2672C /* InfoPlist.strings in Resources */,
+				22F93061177A81CA00F2672C /* Default.png in Resources */,
+				22F93063177A81CA00F2672C /* Default@2x.png in Resources */,
+				22F93065177A81CA00F2672C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D28B963BB53949E7861502C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		DFD2A60396E14BFBB9B6ABDE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F93047177A81C900F2672C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F9305B177A81C900F2672C /* main.m in Sources */,
+				22F9305F177A81C900F2672C /* AppDelegate.m in Sources */,
+				22F9307B177A855600F2672C /* RestKitFaceBook.m in Sources */,
+				22F9307F177A913400F2672C /* FBLoginViewController.m in Sources */,
+				22F9313B177ADE9900F2672C /* FacebookFriends.m in Sources */,
+				22DEAB26177BD78D0019DD6A /* FacebookMessageWallResponse.m in Sources */,
+				22DEAB29177BDC690019DD6A /* FacebookMessageWallRequest.m in Sources */,
+				22DEAB2D177C1ACC0019DD6A /* FacebookAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22F93057177A81C900F2672C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F93058177A81C900F2672C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F93066177A81CA00F2672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22F93067177A81CA00F2672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F93069177A81CA00F2672C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7179E52FAF424B0B94FE4411 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitFacebook/RestKitFacebook-Prefix.pch";
+				INFOPLIST_FILE = "RestKitFacebook/RestKitFacebook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FacebookSDK.framework/Versions/A\"",
+					"\"$(SRCROOT)/FacebookSDK.framework/Versions/Current\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22F9306A177A81CA00F2672C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7179E52FAF424B0B94FE4411 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitFacebook/RestKitFacebook-Prefix.pch";
+				INFOPLIST_FILE = "RestKitFacebook/RestKitFacebook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FacebookSDK.framework/Versions/A\"",
+					"\"$(SRCROOT)/FacebookSDK.framework/Versions/Current\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F93046177A81C900F2672C /* Build configuration list for PBXProject "RestKitFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F93066177A81CA00F2672C /* Debug */,
+				22F93067177A81CA00F2672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F93068177A81CA00F2672C /* Build configuration list for PBXNativeTarget "RestKitFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F93069177A81CA00F2672C /* Debug */,
+				22F9306A177A81CA00F2672C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F93043177A81C900F2672C /* Project object */;
+}
