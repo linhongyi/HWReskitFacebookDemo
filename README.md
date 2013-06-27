@@ -3,6 +3,15 @@ ReskitFacebookDemo
 
 Use Facebook Graph API via RestkitFramework
 
+How to Start
+
+==================
+
+1. You have to go to the project directory in commanLine, and type "pod install" to install the third party.
+2. In AppDelegate.m, you need to set up your Facebook App ID.
+
+Example: [RestKitFaceBook setAppID:yourFacebookAppId];
+
 License
 ==================
 
